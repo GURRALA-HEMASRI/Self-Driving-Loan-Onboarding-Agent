@@ -13,9 +13,10 @@ The solution follows the two key principles specified in the assignment:
 
 ---
 ## Screenshots
-![](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/a837786360789f5be7d1cb4f0d1a0ec23aa37838/Screenshot%202026-06-03%20155845.png)
-![](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/a837786360789f5be7d1cb4f0d1a0ec23aa37838/Screenshot%202026-06-03%20155921.png)
-![](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/a837786360789f5be7d1cb4f0d1a0ec23aa37838/Screenshot%202026-06-03%20155934.png)
+![On Boarding](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/db986add1e4349e321c6cbb9a50e91f2496412d5/Screenshot%202026-06-03%20170958.png)
+![Verfication Status](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/db986add1e4349e321c6cbb9a50e91f2496412d5/Screenshot%202026-06-03%20171119.png)
+![Human Summary Review](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/db986add1e4349e321c6cbb9a50e91f2496412d5/Screenshot%202026-06-03%20171139.png)
+![Invalid PanCard](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/db986add1e4349e321c6cbb9a50e91f2496412d5/Screenshot%202026-06-03%20170847.png)
 ## Features
 
 ### Split-Screen Interface

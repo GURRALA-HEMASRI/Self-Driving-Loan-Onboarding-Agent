@@ -12,7 +12,9 @@ The solution follows the two key principles specified in the assignment:
 * **Agent never hallucinates** and displays "Not Available" whenever data cannot be found instead of generating fabricated information.
 
 ---
-
+![](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/a837786360789f5be7d1cb4f0d1a0ec23aa37838/Screenshot%202026-06-03%20155845.png)
+![](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/a837786360789f5be7d1cb4f0d1a0ec23aa37838/Screenshot%202026-06-03%20155921.png)
+![](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/a837786360789f5be7d1cb4f0d1a0ec23aa37838/Screenshot%202026-06-03%20155934.png)
 ## Features
 
 ### Split-Screen Interface

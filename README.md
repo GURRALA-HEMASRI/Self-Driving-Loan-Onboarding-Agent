@@ -19,7 +19,7 @@ The solution follows the two key principles specified in the assignment:
 ![Verfication Status](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/db986add1e4349e321c6cbb9a50e91f2496412d5/Screenshot%202026-06-03%20171119.png)
 ## Human Summary Review
 ![Human Summary Review](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/db986add1e4349e321c6cbb9a50e91f2496412d5/Screenshot%202026-06-03%20171139.png)
-## Invalid PanCard
+## Invalid Card Details
 ![Invalid PanCard](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/db986add1e4349e321c6cbb9a50e91f2496412d5/Screenshot%202026-06-03%20170847.png)
 ## Features
 

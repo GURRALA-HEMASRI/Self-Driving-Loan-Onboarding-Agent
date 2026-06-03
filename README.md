@@ -13,7 +13,7 @@ The solution follows the two key principles specified in the assignment:
 
 ---
 ## Screenshots
-##On Boarding
+## On Boarding
 ![On Boarding](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/db986add1e4349e321c6cbb9a50e91f2496412d5/Screenshot%202026-06-03%20170958.png)
 ## Verfication Status
 ![Verfication Status](https://github.com/GURRALA-HEMASRI/Self-Driving-Loan-Onboarding-Agent/blob/db986add1e4349e321c6cbb9a50e91f2496412d5/Screenshot%202026-06-03%20171119.png)

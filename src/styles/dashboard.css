@@ -1,0 +1,327 @@
+.app-container {
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+/* HEADER */
+
+.header {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 20px 30px;
+}
+
+.header-content h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #111827;
+}
+
+.header-content p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* DASHBOARD */
+
+.dashboard {
+  display: flex;
+  height: calc(100vh - 90px);
+}
+
+.left-panel {
+  width: 40%;
+  background: white;
+  border-right: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-panel {
+  width: 60%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* CHAT PANEL */
+
+.chat-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-header {
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.chat-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+  background: #fafafa;
+}
+
+/* MESSAGES */
+
+.message {
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.agent-message {
+  justify-content: flex-start;
+}
+
+.user-message {
+  justify-content: flex-end;
+}
+
+.message-content {
+  max-width: 75%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.agent-message .message-content {
+  background: #eef2ff;
+  color: #1e3a8a;
+}
+
+.user-message .message-content {
+  background: #2563eb;
+  color: white;
+}
+
+/* INPUT */
+
+.chat-input-form {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  border-top: 1px solid #e5e7eb;
+  background: white;
+}
+
+.chat-input-form input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.chat-input-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+}
+
+.chat-input-form button:hover {
+  background: #1d4ed8;
+}
+
+/* TYPING INDICATOR */
+
+.typing-indicator {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.typing-indicator span {
+  width: 8px;
+  height: 8px;
+  background: #6b7280;
+  border-radius: 50%;
+  animation: bounce 1s infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* FORM */
+
+.loan-form {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.loan-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-section {
+  margin-bottom: 25px;
+}
+
+.form-section h3 {
+  margin-bottom: 15px;
+  color: #374151;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.form-field label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-field input {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+/* STATUS */
+
+.status-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* VERIFIED */
+
+.verified {
+  background: #dcfce7;
+  color: #166534;
+}
+
+/* PENDING */
+
+.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+/* NOT AVAILABLE */
+
+.not-available {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* MISMATCH */
+
+.mismatch {
+  background: #fecaca;
+  color: #7f1d1d;
+}
+
+/* DOCUMENT UPLOADED */
+
+.bank-uploaded {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+/* REVIEW CARD */
+
+.review-card {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #f8fafc;
+}
+
+.review-card p {
+  margin-bottom: 10px;
+}
+
+/* TIMELINE */
+
+.timeline-container {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.timeline-container h3 {
+  margin-bottom: 20px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.timeline-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.timeline-dot.completed {
+  background: #10b981;
+}
+
+.timeline-dot.pending {
+  background: #f59e0b;
+}
+
+.timeline-text {
+  font-size: 14px;
+  color: #374151;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .dashboard {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-panel,
+  .right-panel {
+    width: 100%;
+  }
+
+  .left-panel {
+    height: 500px;
+  }
+}
+
+.timeline-empty {
+  padding: 15px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+}
